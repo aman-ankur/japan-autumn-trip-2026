@@ -1,16 +1,16 @@
-# Takayama, Kiso Valley & Fuji Autumn Loop
+# Japan Autumn Road Trip · 2–17 November 2026
 
-A responsive, self-contained GitHub Pages guide for a 14-night Japan autumn trip in November 2026.
+A responsive, self-contained GitHub Pages guide for a final 15-night Japan autumn trip for two.
 
 ## Included
 
-- Recommended and enhanced day-by-day itinerary
-- Same-branch six-day Matsumoto driving loop
+- Final 2–17 November day-by-day itinerary
+- Same-branch 5–12 November Matsumoto driving loop
 - Accommodation booking sheet
-- Rail, bus, toll and budget calculations in JPY and INR
-- 2024–2025 autumn observations and a working 2026 timing view
-- Late-October decision guidance
-- Google Maps routes, videos and primary planning sources
+- Daily driving distances, times, stops and rationale
+- Couple budget calculations in INR
+- Working 2026 foliage expectations
+- Saved Google Maps road-trip link and official planning sources
 
 The page uses no framework, build step, tracking scripts or third-party image assets.
 
