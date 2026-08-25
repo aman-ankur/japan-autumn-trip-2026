@@ -11,6 +11,9 @@ A responsive, self-contained GitHub Pages guide for a final 15-night Japan autum
 - Couple budget calculations in INR
 - Working 2026 foliage expectations
 - Saved Google Maps road-trip link and official planning sources
+- Alternative 10–25 November car and public-transport timelines
+- Date-by-date accommodation booking sheet and no-car reservation calendar
+- Value transport comparisons, INR conversions and a full couple budget
 
 The page uses no framework, build step, tracking scripts or third-party image assets.
 
