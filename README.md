@@ -1,19 +1,16 @@
-# Japan Autumn Road Trip · 2–17 November 2026
+# Japan Autumn Trip · 10–25 November 2026
 
-A responsive, self-contained GitHub Pages guide for a final 15-night Japan autumn trip for two.
+A responsive, self-contained GitHub Pages guide for a confirmed 15-night Japan autumn trip for two.
 
 ## Included
 
-- Final 2–17 November day-by-day itinerary
-- Same-branch 5–12 November Matsumoto driving loop
-- Accommodation booking sheet
-- Daily driving distances, times, stops and rationale
-- Couple budget calculations in INR
-- Working 2026 foliage expectations
-- Saved Google Maps road-trip link and official planning sources
-- Alternative 10–25 November car and public-transport timelines
-- Date-by-date accommodation booking sheet and no-car reservation calendar
-- Value transport comparisons, INR conversions and a full couple budget
+- Confirmed 10–25 November day-by-day itinerary
+- Confirmed Cathay Pacific flight timing and baggage allowance
+- Six-stay accommodation booking sheet
+- No-car transport and reservation calendar
+- Foliage-aware, weather-flexible Kyoto, Fuji and Kamakura days
+- Couple ground-trip budget calculations in INR
+- Official planning and transport links
 
 The page uses no framework, build step, tracking scripts or third-party image assets.
 
