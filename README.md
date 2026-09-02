@@ -1,10 +1,10 @@
-# Japan Autumn Trip · 10–25 November 2026
+# Japan Autumn Trip · 10-25 November 2026
 
 A responsive, self-contained GitHub Pages guide for a confirmed 15-night Japan autumn trip for two.
 
 ## Included
 
-- Confirmed 10–25 November day-by-day itinerary
+- Confirmed 10-25 November day-by-day itinerary
 - Confirmed Cathay Pacific flight timing and baggage allowance
 - Six-stay accommodation booking sheet
 - Recommended no-car transport and reservation calendar
