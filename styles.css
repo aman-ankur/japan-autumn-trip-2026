@@ -30,3 +30,16 @@ footer{max-width:var(--max);margin:auto;padding:38px 24px 60px;border-top:1px so
 @media(max-width:1000px){.place-grid{grid-template-columns:1fr;grid-template-rows:440px repeat(4,320px) 380px}.place-card.takayama,.place-card.kawaguchiko{grid-row:auto;grid-column:auto}}
 @media(max-width:650px){.place-grid{grid-template-rows:380px repeat(4,280px) 320px}}
 @media(max-width:390px){.place-grid{grid-template-rows:340px repeat(4,260px) 300px}}
+
+/* Confirmed accommodation options */
+.reservation-status{display:grid;grid-template-columns:1fr 1fr;margin-bottom:14px;border:1px solid var(--line);background:rgba(251,247,239,.58)}
+.reservation-status>div{padding:24px 26px}.reservation-status>div+div{border-left:1px solid var(--line)}.reservation-status .attention{background:var(--rust);color:#fff}
+.reservation-status span{color:var(--rust);font-size:9px;font-weight:600;letter-spacing:.14em;text-transform:uppercase}.reservation-status .attention span{color:#f4c2a7}
+.reservation-status strong{display:block;margin:4px 0;font:25px "Shippori Mincho",serif}.reservation-status p{color:#686258;font:12px "Noto Serif JP",serif}.reservation-status .attention p{color:rgba(255,255,255,.72)}
+.booking-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.booking-card{position:relative;padding:24px;border:1px solid var(--line);background:rgba(251,247,239,.58)}
+.booking-card.budgeted::after{content:"Budgeted";position:absolute;right:18px;top:52px;padding:4px 8px;border-radius:20px;background:rgba(168,64,43,.1);color:var(--rust);font-size:8px;font-weight:600;letter-spacing:.12em;text-transform:uppercase}
+.booking-card header{display:flex;justify-content:space-between;gap:16px;padding-bottom:14px;border-bottom:1px solid var(--line)}.booking-card header span{color:#6f695f;font-size:9px;letter-spacing:.1em;text-transform:uppercase}.booking-card header b{white-space:nowrap;color:var(--rust);font-size:10px}
+.booking-card h3{max-width:78%;margin:20px 0 8px;font-size:27px}.booking-card>p{min-height:44px;color:#686258;font:12px "Noto Serif JP",serif}
+.booking-card dl{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:20px}.booking-card dl div{padding-top:10px;border-top:1px solid var(--line)}.booking-card dt{color:#82796c;font-size:8px;letter-spacing:.12em;text-transform:uppercase}.booking-card dd{margin:3px 0 0;color:#4f514b;font-size:11px}.stay-warning{max-width:none}
+@media(max-width:850px){.booking-grid{grid-template-columns:1fr}.reservation-status{grid-template-columns:1fr}.reservation-status>div+div{border-left:0;border-top:1px solid var(--line)}.booking-card>p{min-height:auto}}
+@media(max-width:480px){.reservation-status>div,.booking-card{padding:18px}.booking-card header{display:block}.booking-card header b{display:block;margin-top:4px}.booking-card h3{max-width:72%;font-size:24px}.booking-card dl{grid-template-columns:1fr}}
