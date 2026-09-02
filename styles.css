@@ -104,6 +104,14 @@ nav a:hover { color: var(--rust); }
 .callout { display: flex; gap: 1rem; border: 1px solid var(--line); border-radius: 16px; padding: 1rem 1.2rem; max-width: 680px; background: rgba(255,255,255,.3); }.callout strong{white-space:nowrap}.callout p{margin:0;color:var(--muted)}
 
 .variant-grid { display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin:-.5rem 0 2.5rem }.variant-card{border:1px solid var(--line);border-radius:18px;padding:1.25rem;background:rgba(255,255,255,.28)}.variant-card.recommended{border-color:rgba(177,77,44,.45);box-shadow:inset 0 3px 0 var(--rust)}.variant-card>span{display:block;color:var(--rust);font-size:.68rem;text-transform:uppercase;letter-spacing:.09em;font-weight:800}.variant-card h3{margin:.35rem 0 .65rem}.variant-card p{margin:0;color:var(--muted);font-size:.88rem}
+.plan-detail-grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 1rem; }
+.plan-detail { min-width: 0; border: 1px solid var(--line); border-radius: 18px; background: rgba(255,255,255,.3); overflow: hidden; }
+.plan-detail > summary { cursor: pointer; list-style: none; padding: 1rem 3rem 1rem 1.1rem; position: relative; }
+.plan-detail > summary::-webkit-details-marker { display: none; }.plan-detail > summary::after { content: "+"; position: absolute; right: 1.1rem; top: 50%; transform: translateY(-50%); color: var(--rust); font-size: 1.35rem; }.plan-detail[open] > summary::after { content: "−"; }
+.plan-detail > summary b, .plan-detail > summary span { display: block; }.plan-detail > summary b { font-family: ui-serif,Georgia,serif; font-size: 1.3rem; }.plan-detail > summary span { color: var(--muted); font-size: .8rem; }
+.plan-detail > div { padding: 0 1rem 1rem; border-top: 1px solid var(--line); }.compact-route { grid-template-columns: repeat(2,minmax(0,1fr)); padding-top: 1rem; }.compact-route .route-stop { min-height: 112px; padding: .8rem; }.compact-route .route-stop strong { font-size: 1.05rem; }.compact-route .route-stop small,.compact-route .route-stop em { font-size: .7rem; }
+.plan-rules { margin: .8rem 0 0; padding-left: 1.2rem; color: var(--muted); font-size: .84rem; }.plan-rules li+li { margin-top: .4rem; }
+.fuji-branch-flow { grid-template-columns: repeat(3,minmax(0,1fr)); }.branch-verdicts { margin: 1rem 0 1.5rem; }.kawaguchiko-table { margin-bottom: 1.5rem; }
 
 .day-list { border-top: 1px solid var(--line); }
 details.day { border-bottom: 1px solid var(--line); }
@@ -158,7 +166,7 @@ footer{max-width:var(--max);margin:0 auto;padding:3rem 1.25rem 5rem;border-top:1
   nav { display: none; position: absolute; top: 66px; right: 1rem; flex-direction: column; gap: 0; padding: .5rem; border: 1px solid var(--line); border-radius: 14px; background: var(--cream); box-shadow: var(--shadow); }
   nav.open { display: flex; } nav a{padding:.65rem 1.2rem}.menu-button{display:block}
   .hero { grid-template-columns: 1fr; padding-top: 4rem; }.hero-art{min-height:320px;border-radius:22px}.quick-facts{grid-template-columns:repeat(2,1fr)}
-  .grid-two,.rental-card,.day-grid,.late-plan-banner{grid-template-columns:1fr}.detail-body{padding-left:0;padding-right:0}.cost-grid{grid-template-columns:repeat(2,1fr)}.decision-grid,.video-grid,.research-grid{grid-template-columns:repeat(2,1fr)}.source-grid{grid-template-columns:repeat(2,1fr)}.drive-list{grid-template-columns:1fr}.late-route-flow{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .grid-two,.rental-card,.day-grid,.late-plan-banner{grid-template-columns:1fr}.detail-body{padding-left:0;padding-right:0}.cost-grid{grid-template-columns:repeat(2,1fr)}.decision-grid,.video-grid,.research-grid{grid-template-columns:repeat(2,1fr)}.source-grid{grid-template-columns:repeat(2,1fr)}.drive-list{grid-template-columns:1fr}.late-route-flow{grid-template-columns:repeat(2,minmax(0,1fr))}.plan-detail-grid{grid-template-columns:1fr}
 }
 
 @media (max-width: 640px) {
@@ -167,7 +175,7 @@ footer{max-width:var(--max);margin:0 auto;padding:3rem 1.25rem 5rem;border-top:1
   .flight-card>summary{padding:1rem 3.1rem 1rem 1rem}.flight-card>summary strong{font-size:1.22rem}.flight-card-body{padding:0 1rem 1rem}.flight-grid{grid-template-columns:1fr}.flight-grid article{padding:.75rem .8rem}
   details.day summary{grid-template-columns:82px 1fr 20px;gap:.7rem;padding:.7rem 0}.nights{display:none}.day-title{font-size:1.08rem}.detail-body{padding-bottom:1.5rem}.drive-metrics{gap:.4rem}
   .chart-head{display:none}.chart-row{grid-template-columns:105px 1fr;padding:.75rem}.track i{font-size:.55rem}.comparison-cards{grid-template-columns:1fr}
-  .route-flow,.late-route-flow{grid-template-columns:1fr;gap:.55rem}.route-stop{min-height:120px;padding:1rem}.route-stop strong{font-size:1.32rem}.variant-grid,.upgrade-verdict,.cost-grid,.decision-grid,.video-grid,.research-grid,.source-grid{grid-template-columns:1fr}.video-grid a{min-height:175px}.check-list li{display:block}.check-list b{display:block;margin-top:.25rem}.map-actions,.hero-actions{flex-direction:column;align-items:stretch}.late-plan-banner{gap:.8rem}
+  .route-flow,.late-route-flow,.fuji-branch-flow{grid-template-columns:1fr;gap:.55rem}.route-stop{min-height:120px;padding:1rem}.route-stop strong{font-size:1.32rem}.variant-grid,.upgrade-verdict,.cost-grid,.decision-grid,.video-grid,.research-grid,.source-grid{grid-template-columns:1fr}.variant-grid{margin-bottom:1.2rem}.video-grid a{min-height:175px}.check-list li{display:block}.check-list b{display:block;margin-top:.25rem}.map-actions,.hero-actions{flex-direction:column;align-items:stretch}.late-plan-banner{gap:.8rem}.compact-route{grid-template-columns:1fr}.compact-route .route-stop{min-height:100px}.plan-detail>div{padding:0 .8rem .9rem}.kawaguchiko-table table{min-width:720px}
   footer{align-items:flex-start;gap:2rem}.art-label{font-size:.58rem}
 }
 

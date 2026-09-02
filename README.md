@@ -7,7 +7,9 @@ A responsive, self-contained GitHub Pages guide for a confirmed 15-night Japan a
 - Confirmed 10–25 November day-by-day itinerary
 - Confirmed Cathay Pacific flight timing and baggage allowance
 - Six-stay accommodation booking sheet
-- No-car transport and reservation calendar
+- Recommended no-car transport and reservation calendar
+- Conditional Matsumoto car-loop alternative with requirements and changed hotel night
+- Kyoto-Mishima-Kawaguchiko-Tokyo overnight alternative
 - Foliage-aware, weather-flexible Kyoto, Fuji and Kamakura days
 - Couple ground-trip budget calculations in INR
 - Official planning and transport links
