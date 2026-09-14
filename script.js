@@ -10,6 +10,16 @@ const openLinkedDetails = () => {
 openLinkedDetails();
 window.addEventListener('hashchange', openLinkedDetails);
 
+const routeVersions = document.querySelectorAll('.plan-detail-grid > .plan-detail');
+routeVersions.forEach((version) => {
+  version.addEventListener('toggle', () => {
+    if (!version.open) return;
+    routeVersions.forEach((otherVersion) => {
+      if (otherVersion !== version) otherVersion.open = false;
+    });
+  });
+});
+
 menuButton?.addEventListener('click', () => {
   const open = nav.classList.toggle('open');
   menuButton.setAttribute('aria-expanded', String(open));
