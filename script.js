@@ -11,12 +11,26 @@ openLinkedDetails();
 window.addEventListener('hashchange', openLinkedDetails);
 
 const routeVersions = document.querySelectorAll('.plan-detail-grid > .plan-detail');
+
+const loadVersionMaps = (version) => {
+  version.querySelectorAll('img[data-src]').forEach((image) => {
+    image.src = image.dataset.src;
+    image.removeAttribute('data-src');
+  });
+};
+
 routeVersions.forEach((version) => {
+  const gallery = version.querySelector('.route-map-gallery');
+  if (gallery && version.open) loadVersionMaps(version);
+
   version.addEventListener('toggle', () => {
     if (!version.open) return;
     routeVersions.forEach((otherVersion) => {
       if (otherVersion !== version) otherVersion.open = false;
     });
+    if (gallery && gallery.querySelector('img[data-src]')) {
+      loadVersionMaps(version);
+    }
   });
 });
 
