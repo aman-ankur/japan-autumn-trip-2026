@@ -11,6 +11,7 @@ A responsive, self-contained GitHub Pages guide for a confirmed 15-night Japan a
 - Short Alps Drive: compact Matsumoto car-loop alternative
 - Grand Kiso Drive: extended 13-21 November loop via Hirayu, Takayama, Magome and Kiso-Fukushima
 - Balanced Kiso Drive: two Takayama nights, Gero, one Magome night, Kiso-Fukushima and Kawaguchiko
+- Public Transport Only: booked Nakatsugawa and Nezame Hotel route with Nakasendo, lower Atera Valley and carried luggage
 - Kyoto-Mishima-Kawaguchiko-Tokyo overnight alternative
 - Foliage-aware, weather-flexible Kyoto, Fuji and Kamakura days
 - Couple ground-trip budget calculations in INR
