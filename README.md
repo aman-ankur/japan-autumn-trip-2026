@@ -7,10 +7,10 @@ A responsive, self-contained GitHub Pages guide for a confirmed 15-night Japan a
 - Confirmed 10-25 November day-by-day itinerary
 - Confirmed Cathay Pacific flight timing and baggage allowance
 - Six-stay accommodation booking sheet
-- Recommended no-car transport and reservation calendar
-- Conditional Matsumoto car-loop alternative with requirements and changed hotel night
-- Extended 13-21 November Matsumoto car loop via Hirayu, Takayama, Magome and Kiso-Fukushima
-- Balanced road-trip option with two Takayama nights, Gero, one Magome night, Kiso-Fukushima and Kawaguchiko
+- Rail & Bus: recommended no-car transport and reservation calendar
+- Short Alps Drive: compact Matsumoto car-loop alternative
+- Grand Kiso Drive: extended 13-21 November loop via Hirayu, Takayama, Magome and Kiso-Fukushima
+- Balanced Kiso Drive: two Takayama nights, Gero, one Magome night, Kiso-Fukushima and Kawaguchiko
 - Kyoto-Mishima-Kawaguchiko-Tokyo overnight alternative
 - Foliage-aware, weather-flexible Kyoto, Fuji and Kamakura days
 - Couple ground-trip budget calculations in INR

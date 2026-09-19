@@ -41,7 +41,17 @@ menuButton?.addEventListener('click', () => {
 });
 
 nav?.addEventListener('click', (event) => {
-  if (event.target.matches('a')) {
+  const link = event.target.closest('a');
+  if (link) {
+    const linkedTarget = link.hash ? document.getElementById(decodeURIComponent(link.hash.slice(1))) : null;
+    if (linkedTarget?.matches('.plan-detail')) {
+      event.preventDefault();
+      linkedTarget.open = true;
+      window.history.pushState(null, '', link.hash);
+      window.requestAnimationFrame(() => {
+        window.requestAnimationFrame(() => linkedTarget.scrollIntoView({ block: 'start' }));
+      });
+    }
     nav.classList.remove('open');
     menuButton?.setAttribute('aria-expanded', 'false');
     if (menuButton) menuButton.textContent = 'Menu';
