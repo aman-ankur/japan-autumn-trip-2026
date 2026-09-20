@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 760" role="img" aria-labelledby="title desc">
+  <title id="title">Kamikochi access and day-walk map</title>
+  <desc id="desc">Drive from Matsumoto to Akandana Parking, take the shuttle through Hirayu to Taisho Pond, then walk via Tashiro Pond to Kappa Bridge. The longer Myojin Pond loop is optional and Tokusawa is outside this trip.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbf7ef"/>
+      <stop offset="1" stop-color="#efe5d5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#2f2216" flood-opacity=".12"/>
+    </filter>
+    <marker id="arrow-rust" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10z" fill="#a8402b"/>
+    </marker>
+    <marker id="arrow-gold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10z" fill="#c6a057"/>
+    </marker>
+  </defs>
+
+  <rect width="900" height="760" rx="26" fill="url(#paper)"/>
+  <path d="M700 10 795 150 744 205 855 350 900 322V0Z" fill="#59634f" opacity=".12"/>
+  <path d="M0 145 92 46l86 108 68-65 66 97H0Z" fill="#a8402b" opacity=".08"/>
+
+  <text x="54" y="62" fill="#a8402b" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">ACCESS · PARK · SHUTTLE</text>
+  <text x="54" y="96" fill="#1c211d" font-family="Georgia, serif" font-size="30" font-weight="700">Getting into the car-free valley</text>
+
+  <g filter="url(#shadow)">
+    <rect x="52" y="124" width="796" height="145" rx="14" fill="#fffaf1" stroke="#1c211d" stroke-opacity=".15"/>
+  </g>
+  <path d="M153 196H335" stroke="#a8402b" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow-rust)"/>
+  <path d="M493 196H690" stroke="#c6a057" stroke-width="5" stroke-linecap="round" marker-end="url(#arrow-gold)"/>
+  <circle cx="124" cy="196" r="32" fill="#1c211d"/>
+  <text x="124" y="202" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="22">車</text>
+  <text x="83" y="242" fill="#1c211d" font-family="Arial, sans-serif" font-size="15" font-weight="700">Matsumoto</text>
+  <text x="218" y="181" fill="#6b655c" font-family="Arial, sans-serif" font-size="12">Route 158 · allow 1½ hr</text>
+
+  <circle cx="413" cy="196" r="40" fill="#a8402b"/>
+  <text x="413" y="202" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="22">P</text>
+  <text x="354" y="242" fill="#1c211d" font-family="Arial, sans-serif" font-size="15" font-weight="700">Akandana</text>
+  <text x="345" y="258" fill="#6b655c" font-family="Arial, sans-serif" font-size="11">¥600 / 24 hr · park here</text>
+
+  <rect x="523" y="170" width="57" height="43" rx="8" fill="#c6a057"/>
+  <circle cx="537" cy="216" r="6" fill="#1c211d"/><circle cx="566" cy="216" r="6" fill="#1c211d"/>
+  <text x="551" y="197" text-anchor="middle" fill="#1c211d" font-family="Arial, sans-serif" font-size="13" font-weight="700">BUS</text>
+  <text x="509" y="242" fill="#1c211d" font-family="Arial, sans-serif" font-size="15" font-weight="700">via Hirayu</text>
+  <text x="506" y="258" fill="#6b655c" font-family="Arial, sans-serif" font-size="11">every 30 min</text>
+
+  <circle cx="738" cy="196" r="38" fill="#59634f"/>
+  <path d="M715 205q23-38 46 0M722 205q16-25 32 0" fill="none" stroke="#fff" stroke-width="3"/>
+  <text x="697" y="242" fill="#1c211d" font-family="Arial, sans-serif" font-size="15" font-weight="700">Taisho Pond</text>
+  <text x="700" y="258" fill="#6b655c" font-family="Arial, sans-serif" font-size="11">get off here</text>
+
+  <text x="54" y="326" fill="#a8402b" font-family="Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="2">VALLEY WALK · FLAT MAIN PATHS</text>
+  <text x="54" y="360" fill="#1c211d" font-family="Georgia, serif" font-size="30" font-weight="700">Core route south to north</text>
+
+  <g transform="translate(53 389)">
+    <rect width="794" height="314" rx="18" fill="#f8f3e9" stroke="#1c211d" stroke-opacity=".16"/>
+    <path d="M467 290c-42-33-19-69 29-90 46-20 8-56-41-72-47-16-39-62 23-105" fill="none" stroke="#91b9bc" stroke-width="17" stroke-linecap="round" opacity=".78"/>
+    <path d="M468 290c-41-35-20-70 28-91 44-20 6-53-40-69-45-16-37-61 22-107" fill="none" stroke="#f4fbfb" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+
+    <path d="M240 260C310 244 359 223 421 194S526 150 581 113" fill="none" stroke="#a8402b" stroke-width="7" stroke-linecap="round" marker-end="url(#arrow-rust)"/>
+    <path d="M582 112C656 72 697 66 728 87 756 106 719 135 650 153 625 160 606 145 582 112Z" fill="none" stroke="#59634f" stroke-width="5" stroke-dasharray="10 9"/>
+    <path d="M730 84C774 55 780 28 760 12" fill="none" stroke="#8b857a" stroke-width="3" stroke-dasharray="6 8"/>
+
+    <circle cx="239" cy="260" r="13" fill="#a8402b"/>
+    <circle cx="357" cy="223" r="10" fill="#a8402b"/>
+    <circle cx="470" cy="173" r="10" fill="#a8402b"/>
+    <circle cx="582" cy="112" r="15" fill="#a8402b"/>
+    <circle cx="730" cy="86" r="13" fill="#59634f"/>
+
+    <text x="40" y="69" fill="#59634f" font-family="Arial, sans-serif" font-size="12" font-weight="700">OPTIONAL ON 14 NOV ONLY</text>
+    <text x="40" y="92" fill="#1c211d" font-family="Georgia, serif" font-size="23" font-weight="700">Myojin Pond loop</text>
+    <text x="40" y="113" fill="#686258" font-family="Arial, sans-serif" font-size="12">Add ~2 hr · only if dry and ahead of time</text>
+    <line x1="40" y1="133" x2="147" y2="133" stroke="#59634f" stroke-width="5" stroke-dasharray="10 9"/>
+
+    <text x="41" y="198" fill="#a8402b" font-family="Arial, sans-serif" font-size="12" font-weight="700">RECOMMENDED BOTH DAYS</text>
+    <text x="41" y="221" fill="#1c211d" font-family="Georgia, serif" font-size="23" font-weight="700">Taisho → Kappa</text>
+    <text x="41" y="242" fill="#686258" font-family="Arial, sans-serif" font-size="12">4 km · allow 1¾–2¼ hr with photos</text>
+    <line x1="41" y1="262" x2="148" y2="262" stroke="#a8402b" stroke-width="7"/>
+
+    <text x="183" y="292" fill="#1c211d" font-family="Arial, sans-serif" font-size="13" font-weight="700">Taisho Pond</text>
+    <text x="306" y="255" fill="#1c211d" font-family="Arial, sans-serif" font-size="12" font-weight="700">Tashiro Pond</text>
+    <text x="424" y="150" fill="#1c211d" font-family="Arial, sans-serif" font-size="12" font-weight="700">Tashiro Bridge</text>
+    <text x="522" y="91" fill="#1c211d" font-family="Arial, sans-serif" font-size="13" font-weight="700">Kappa Bridge</text>
+    <text x="675" y="113" fill="#1c211d" font-family="Arial, sans-serif" font-size="12" font-weight="700">Myojin Pond</text>
+    <text x="742" y="24" fill="#8b857a" font-family="Arial, sans-serif" font-size="11" font-weight="700">Tokusawa</text>
+    <text x="742" y="40" fill="#a8402b" font-family="Arial, sans-serif" font-size="10">SKIP</text>
+
+    <g transform="translate(540 225)">
+      <rect width="224" height="57" rx="10" fill="#1c211d"/>
+      <text x="16" y="23" fill="#e7a37c" font-family="Arial, sans-serif" font-size="10" font-weight="700">FINISH AT THE TERMINAL</text>
+      <text x="16" y="43" fill="#fff" font-family="Arial, sans-serif" font-size="12">Do not wait for the 17:30 last bus.</text>
+    </g>
+  </g>
+
+  <text x="54" y="737" fill="#726b61" font-family="Arial, sans-serif" font-size="11">Schematic planning map · not for trail navigation · check live trail and bus status before leaving</text>
+</svg>
