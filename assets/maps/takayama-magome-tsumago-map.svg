@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="680" viewBox="0 0 960 680" role="img" aria-labelledby="title desc">
+  <title id="title">Takayama, Magome and Tsumago planning map</title>
+  <desc id="desc">A schematic route from Takayama to Magome by road or direct bus, the Nakasendo walk from Magome to Tsumago, and local bus return options.</desc>
+  <defs>
+    <pattern id="paper" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M0 6h24M0 18h24" stroke="#7d725f" stroke-opacity=".05"/><path d="M6 0v24M18 0v24" stroke="#fff" stroke-opacity=".18"/></pattern>
+    <marker id="arrowRust" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6 Z" fill="#a8402b"/></marker>
+    <marker id="arrowMoss" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L9,3 L0,6 Z" fill="#59634f"/></marker>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#2f2216" flood-opacity=".14"/></filter>
+  </defs>
+  <rect width="960" height="680" fill="#f2eadc"/><rect width="960" height="680" fill="url(#paper)"/>
+  <text x="54" y="62" fill="#a8402b" font-family="Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="2">16–17 NOVEMBER · ACCESS + TRAIL</text>
+  <text x="54" y="102" fill="#1c211d" font-family="Georgia,serif" font-size="34" font-weight="700">Takayama to the Nakasendo</text>
+  <text x="54" y="130" fill="#625e56" font-family="Arial,sans-serif" font-size="14">Schematic planning map — not to geographic scale</text>
+
+  <path d="M185 228 C280 218 336 259 412 320" fill="none" stroke="#a8402b" stroke-width="6" stroke-linecap="round" marker-end="url(#arrowRust)"/>
+  <text x="267" y="223" fill="#a8402b" font-family="Arial,sans-serif" font-size="13" font-weight="700">CAR · ABOUT 2–2½ HR</text>
+  <text x="257" y="244" fill="#625e56" font-family="Arial,sans-serif" font-size="12">or direct Nohi bus · 08:00–10:45</text>
+
+  <path d="M500 365 C585 344 649 356 744 412" fill="none" stroke="#59634f" stroke-width="8" stroke-linecap="round" stroke-dasharray="12 9" marker-end="url(#arrowMoss)"/>
+  <text x="558" y="337" fill="#59634f" font-family="Arial,sans-serif" font-size="13" font-weight="700">NAKASENDO · 8–9 KM</text>
+  <text x="580" y="357" fill="#625e56" font-family="Arial,sans-serif" font-size="12">3–4 hr · easier this direction</text>
+
+  <path d="M754 474 C676 552 535 552 467 415" fill="none" stroke="#c6a057" stroke-width="5" stroke-linecap="round" stroke-dasharray="5 8" marker-end="url(#arrowRust)"/>
+  <text x="535" y="572" fill="#8c6d2f" font-family="Arial,sans-serif" font-size="13" font-weight="700">LOCAL BUS BACK TO MAGOME</text>
+  <text x="568" y="592" fill="#625e56" font-family="Arial,sans-serif" font-size="12">14:22 or 16:42 · ¥1,000</text>
+
+  <g filter="url(#shadow)"><circle cx="162" cy="228" r="66" fill="#1c211d"/><text x="162" y="219" text-anchor="middle" fill="#efa57c" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">START / BASE</text><text x="162" y="246" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="24" font-weight="700">Takayama</text></g>
+  <g filter="url(#shadow)"><circle cx="453" cy="365" r="72" fill="#a8402b"/><text x="453" y="348" text-anchor="middle" fill="#f4c2a7" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">PARK / STAY</text><text x="453" y="379" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="27" font-weight="700">Magome</text><text x="453" y="401" text-anchor="middle" fill="#fff" fill-opacity=".72" font-family="Arial,sans-serif" font-size="11">stone slope · meals · inns</text></g>
+  <g filter="url(#shadow)"><circle cx="785" cy="445" r="72" fill="#59634f"/><text x="785" y="428" text-anchor="middle" fill="#d6dece" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="1">TRAIL END</text><text x="785" y="459" text-anchor="middle" fill="#fff" font-family="Georgia,serif" font-size="27" font-weight="700">Tsumago</text><text x="785" y="481" text-anchor="middle" fill="#fff" fill-opacity=".72" font-family="Arial,sans-serif" font-size="11">old street · bus stop</text></g>
+
+  <g transform="translate(62 500)"><rect width="310" height="118" rx="4" fill="#fbf7ef" stroke="#1c211d" stroke-opacity=".16"/><text x="20" y="30" fill="#a8402b" font-family="Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">DAY-TRIP CAR LOOP</text><text x="20" y="56" fill="#1c211d" font-family="Georgia,serif" font-size="18" font-weight="700">Park Magome → walk → bus back</text><text x="20" y="80" fill="#625e56" font-family="Arial,sans-serif" font-size="12">16:42 Tsumago → 17:10 Magome</text><text x="20" y="99" fill="#625e56" font-family="Arial,sans-serif" font-size="12">Then drive to Takayama after dark</text></g>
+</svg>
