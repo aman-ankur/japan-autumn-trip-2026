@@ -134,3 +134,31 @@ footer{max-width:var(--max);margin:auto;padding:38px 24px 60px;border-top:1px so
 .plan-detail.balanced.recommended>summary .version-key{background:var(--rust)}
 .plan-detail.balanced.recommended>summary .version-copy small,.plan-detail.balanced.recommended>summary::after{color:#efa57c}
 .plan-detail.balanced.recommended>summary .version-copy em{color:rgba(255,255,255,.65)}
+
+/* Final itinerary hierarchy */
+main{display:flex;min-width:0;flex-direction:column}
+main>.hero{order:1}main>.quick-facts{order:2}main>.microcopy{order:3}#flights{order:4}#route{order:5}#final-route{order:6}#booking-checklist{order:7}#itinerary{order:8}#foliage{order:9}#places{order:10}#nikko-day-trip{order:11}#kamikochi{order:12}#magome-options{order:13}#tokyo-plan{order:14}#stays{order:15}#transport{order:16}#budget{order:17}#route-options{order:18}#resources{order:19}
+.final-route-section{padding-top:58px}.final-route-section>.major-section{border-top:3px solid var(--rust)}
+.booking-checklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;counter-reset:booking;margin:0;padding:0;list-style:none}
+.booking-checklist li{position:relative;min-height:62px;padding:14px 12px 14px 42px;border-top:1px solid var(--line);color:#615b52;font:10px/1.55 "Noto Serif JP",serif}
+.booking-checklist li::before{counter-increment:booking;content:counter(booking);position:absolute;left:4px;top:13px;display:grid;width:25px;height:25px;place-items:center;border-radius:50%;background:var(--rust);color:#fff;font:700 9px "DM Sans",sans-serif}
+.booking-checklist>li>span{display:none}
+.booking-checklist b{display:block;margin-bottom:3px;color:var(--sumi);font:600 14px "Shippori Mincho",serif}
+
+/* Selected Magome plan; earlier variants remain in the source as planning history */
+#magome-options .magome-explainer,#magome-option-1,#magome-option-2,#magome-option-4{display:none}
+#magome-options .magome-option-grid{grid-template-columns:1fr;max-width:760px;margin-right:auto;margin-left:auto}
+#magome-option-3{border-color:rgba(168,64,43,.4);background:var(--sumi);color:#fff}
+#magome-option-3 header{border-color:rgba(255,255,255,.16)}#magome-option-3 header span,#magome-option-3 time,#magome-option-3 footer b{color:#efa57c}
+#magome-option-3 header b,#magome-option-3 .option-summary,#magome-option-3 li p{color:rgba(255,255,255,.76)}#magome-option-3 li,#magome-option-3 footer{border-color:rgba(255,255,255,.15)}
+
+/* Demoted planning history */
+#balanced-kiso-drive{display:none}
+#route-options{opacity:.82}#route-options:hover,#route-options:focus-within{opacity:1}
+#route-options .plan-detail-grid{grid-template-columns:1fr}
+#route-options .late-plan-banner{background:rgba(78,105,88,.07);color:var(--sumi);border:1px solid var(--line)}
+#route-options .late-plan-banner span{color:var(--moss)}#route-options .late-plan-banner p{color:#686258}
+.booking-card.archived-stay{opacity:.48;filter:grayscale(.45)}.booking-card.archived-stay:hover{opacity:.72}
+.archived-transport{display:none}
+
+@media(max-width:700px){.booking-checklist{grid-template-columns:1fr}.final-route-section{padding-top:42px}}
