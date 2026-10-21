@@ -68,14 +68,14 @@
     <circle cx="582" cy="112" r="15" fill="#a8402b"/>
     <circle cx="730" cy="86" r="13" fill="#59634f"/>
 
-    <text x="40" y="69" fill="#59634f" font-family="Arial, sans-serif" font-size="12" font-weight="700">OPTIONAL ON 14 NOV ONLY</text>
+    <text x="40" y="69" fill="#59634f" font-family="Arial, sans-serif" font-size="12" font-weight="700">SKIP ON THIS SHORT DAY</text>
     <text x="40" y="92" fill="#1c211d" font-family="Georgia, serif" font-size="23" font-weight="700">Myojin Pond loop</text>
-    <text x="40" y="113" fill="#686258" font-family="Arial, sans-serif" font-size="12">Add ~2 hr · only if dry and ahead of time</text>
+    <text x="40" y="113" fill="#686258" font-family="Arial, sans-serif" font-size="12">Adds ~2 hr · save for a longer visit</text>
     <line x1="40" y1="133" x2="147" y2="133" stroke="#59634f" stroke-width="5" stroke-dasharray="10 9"/>
 
     <text x="41" y="198" fill="#a8402b" font-family="Arial, sans-serif" font-size="12" font-weight="700">RECOMMENDED BOTH DAYS</text>
     <text x="41" y="221" fill="#1c211d" font-family="Georgia, serif" font-size="23" font-weight="700">Taisho → Kappa</text>
-    <text x="41" y="242" fill="#686258" font-family="Arial, sans-serif" font-size="12">4 km · allow 1¾–2¼ hr with photos</text>
+    <text x="41" y="242" fill="#686258" font-family="Arial, sans-serif" font-size="12">4 km · allow 1½–1¾ hr with photos</text>
     <line x1="41" y1="262" x2="148" y2="262" stroke="#a8402b" stroke-width="7"/>
 
     <text x="183" y="292" fill="#1c211d" font-family="Arial, sans-serif" font-size="13" font-weight="700">Taisho Pond</text>
