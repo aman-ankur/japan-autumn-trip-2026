@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="850" viewBox="0 0 1200 850" role="img" aria-labelledby="title desc">
+  <title id="title">Shirakawa-go recommended walking loop</title>
+  <desc id="desc">A schematic map from Seseragi parking across Deai Bridge through the southern lanes, Myozenji, Kanda House, Wada House and the observatory shuttle.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbf7ef"/><stop offset="1" stop-color="#eadfc9"/></linearGradient>
+    <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M0 8h24M0 19h24" stroke="#7e6b53" stroke-opacity=".045"/></pattern>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="5" stdDeviation="7" flood-color="#3e2d20" flood-opacity=".18"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0l10 5-10 5z" fill="#a8402b"/></marker>
+    <style>
+      .label{font:600 24px Georgia,serif;fill:#1c211d}.small{font:17px Arial,sans-serif;fill:#655e54}.tiny{font:14px Arial,sans-serif;fill:#756c61}.badge{font:700 15px Arial,sans-serif;fill:white}.roof{fill:#c6a057;stroke:#745e3b;stroke-width:3}.road{fill:none;stroke:#b8aa93;stroke-width:13;stroke-linecap:round}.lane{fill:none;stroke:#d3c6b2;stroke-width:7;stroke-linecap:round}.walk{fill:none;stroke:#a8402b;stroke-width:8;stroke-linecap:round;stroke-linejoin:round;marker-end:url(#arrow)}.shuttle{fill:none;stroke:#59634f;stroke-width:7;stroke-dasharray:15 12;stroke-linecap:round;marker-end:url(#arrow)}
+    </style>
+  </defs>
+  <rect width="1200" height="850" rx="18" fill="url(#paper)"/><rect width="1200" height="850" rx="18" fill="url(#grain)"/>
+  <path d="M905-30C850 90 950 186 883 292c-66 105 5 202-64 311-58 91-10 181-55 276" fill="none" stroke="#86c6cf" stroke-width="92" opacity=".85"/>
+  <path d="M905-30C850 90 950 186 883 292c-66 105 5 202-64 311-58 91-10 181-55 276" fill="none" stroke="#d9f1ef" stroke-width="6" opacity=".8"/>
+  <text x="945" y="405" class="small" transform="rotate(78 945 405)">Shogawa River</text>
+  <path class="road" d="M697 790C710 662 725 550 708 442S715 211 760 92"/>
+  <path class="lane" d="M350 735C453 656 500 567 492 450s46-242 137-337M360 684c95-4 208-8 347-28M432 525c84 8 176 0 279-32M475 347c76 18 147 13 241-14M529 206c74 14 130 6 197-20"/>
+  <g opacity=".72"><circle cx="312" cy="631" r="75" fill="#9aaf7f"/><circle cx="314" cy="631" r="52" fill="#f1e5c8"/><path d="M255 616l58-54 58 54-16 5-42-38-42 38z" class="roof"/></g>
+  <text x="185" y="742" class="label">Shirakawa Hachiman</text><text x="237" y="768" class="tiny">quiet southern lanes</text>
+  <g transform="translate(438 557)" filter="url(#shadow)"><rect width="170" height="76" rx="12" fill="#fbf7ef" stroke="#a8402b" stroke-width="3"/><text x="85" y="31" text-anchor="middle" class="label">Myozenji</text><text x="85" y="56" text-anchor="middle" class="tiny">museum · ¥300</text></g>
+  <g transform="translate(449 393)" filter="url(#shadow)"><rect width="172" height="76" rx="12" fill="#fbf7ef" stroke="#a8402b" stroke-width="3"/><text x="86" y="31" text-anchor="middle" class="label">Kanda House</text><text x="86" y="56" text-anchor="middle" class="tiny">interior · ¥400</text></g>
+  <g transform="translate(530 233)" filter="url(#shadow)"><rect width="166" height="76" rx="12" fill="#fbf7ef" stroke="#a8402b" stroke-width="3"/><text x="83" y="31" text-anchor="middle" class="label">Wada House</text><text x="83" y="56" text-anchor="middle" class="tiny">interior · ¥400</text></g>
+  <g transform="translate(934 610)" filter="url(#shadow)"><rect width="222" height="96" rx="14" fill="#1c211d"/><text x="111" y="34" text-anchor="middle" class="badge">START / FINISH</text><text x="111" y="62" text-anchor="middle" style="font:600 21px Georgia,serif;fill:white">Seseragi Parking</text><text x="111" y="84" text-anchor="middle" style="font:14px Arial,sans-serif;fill:#efa57c">08:00–17:00 · ¥2,000</text></g>
+  <path d="M932 663L820 648" stroke="#a8402b" stroke-width="8"/><text x="826" y="626" class="small">Deai Bridge</text>
+  <g transform="translate(188 58)" filter="url(#shadow)"><rect width="256" height="100" rx="14" fill="#59634f"/><text x="128" y="35" text-anchor="middle" class="badge">VIEWPOINT</text><text x="128" y="65" text-anchor="middle" style="font:600 23px Georgia,serif;fill:white">Ogimachi Observatory</text><text x="128" y="87" text-anchor="middle" style="font:14px Arial,sans-serif;fill:#e6dcc7">shuttle or uphill walk</text></g>
+  <path class="walk" d="M926 668C788 698 666 711 538 686S338 690 312 641c-20-39 73-44 166-48 70-3 32-82 37-125 5-47 44-67 73-119 29-50 14-68 32-93"/>
+  <path class="shuttle" d="M615 246C548 192 466 146 437 110"/>
+  <circle cx="925" cy="668" r="18" fill="#a8402b"/><text x="925" y="674" text-anchor="middle" class="badge">1</text>
+  <circle cx="312" cy="641" r="18" fill="#a8402b"/><text x="312" y="647" text-anchor="middle" class="badge">2</text>
+  <circle cx="515" cy="468" r="18" fill="#a8402b"/><text x="515" y="474" text-anchor="middle" class="badge">3</text>
+  <circle cx="620" cy="256" r="18" fill="#a8402b"/><text x="620" y="262" text-anchor="middle" class="badge">4</text>
+  <circle cx="437" cy="110" r="18" fill="#59634f"/><text x="437" y="116" text-anchor="middle" class="badge">5</text>
+  <g transform="translate(43 790)"><line x1="0" y1="0" x2="82" y2="0" class="walk" marker-end="none"/><text x="95" y="6" class="small">recommended walk</text><line x1="330" y1="0" x2="412" y2="0" class="shuttle" marker-end="none"/><text x="428" y="6" class="small">observatory shuttle / walk</text></g>
+  <text x="1128" y="59" text-anchor="end" class="tiny">SCHEMATIC · NOT TO SCALE</text>
+</svg>
