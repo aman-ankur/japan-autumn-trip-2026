@@ -14,18 +14,12 @@ A responsive, self-contained GitHub Pages guide for a confirmed 15-night Japan a
 - Couple ground-trip budget calculations in INR
 - Official planning and transport links
 
-The page uses no framework, build step, tracking scripts or third-party image assets.
+The page uses no framework, tracking scripts or third-party image assets.
 
 ## Local preview
 
 Open `index.html` directly, or serve this directory with any static web server.
 
-## Publishing
-
-GitHub Pages is configured to publish from the repository's `main` branch at the root directory.
-
 ## Private details
 
-Booking names are encrypted in the page and revealed with the 🔒 button. Edit `private/index.source.html` (not committed), then rebuild:
-
-    node tools/build-vault.mjs /path/to/passphrase-file
+Booking names are shown as codenames. The real names are encrypted in the page and can be revealed with the 🔒 button.
