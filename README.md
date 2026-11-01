@@ -6,9 +6,9 @@ A responsive, self-contained GitHub Pages guide for a confirmed 15-night Japan a
 
 - Confirmed 10-25 November day-by-day itinerary
 - Confirmed flight timing and baggage allowance
-- Six-stay accommodation booking sheet
+- Current accommodation booking sheet, including the 17 November Magome and 18 November Kiso-Fukushima stays
 - Confirmed rental car from Matsumoto, 12-20 November
-- Final Gero-Magome-Kiso car loop through Hirayu, Takayama, Kawaguchiko and back to Matsumoto
+- Final Gero-Magome-Kiso car loop through Hirayu, Takayama, Gero, Magome, Kiso-Fukushima, Kawaguchiko and back to Matsumoto
 - Public transport before and after the loop, with no duplicated car-replaced fares
 - Foliage-aware, weather-flexible Fuji, Kamakura and Tokyo days
 - Couple ground-trip budget calculations in INR
