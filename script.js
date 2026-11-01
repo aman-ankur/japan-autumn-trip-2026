@@ -177,7 +177,6 @@ foodCityFilters.forEach((button) => {
 
 // Private details: real names are encrypted in #vault-data and swapped in after unlock.
 const vaultData = document.getElementById('vault-data');
-const VAULT_KEY = 'trip-vault-pass';
 
 const fromB64 = (s) => Uint8Array.from(atob(s), (c) => c.charCodeAt(0));
 
@@ -208,10 +207,9 @@ if (vaultData && window.crypto?.subtle) {
   button.setAttribute('aria-label', 'Unlock private details');
   document.body.append(button);
 
-  const unlock = async (passphrase, remember) => {
+  const unlock = async (passphrase) => {
     try {
       applyVault(await openVault(passphrase));
-      if (remember) localStorage.setItem(VAULT_KEY, passphrase);
       button.textContent = '🔓';
       button.setAttribute('aria-label', 'Lock private details');
       return true;
@@ -222,14 +220,10 @@ if (vaultData && window.crypto?.subtle) {
 
   button.addEventListener('click', async () => {
     if (document.body.classList.contains('vault-open')) {
-      localStorage.removeItem(VAULT_KEY);
       location.reload();
       return;
     }
     const passphrase = prompt('Passphrase');
-    if (passphrase && !(await unlock(passphrase, true))) alert('Wrong passphrase');
+    if (passphrase && !(await unlock(passphrase))) alert('Wrong passphrase');
   });
-
-  const saved = localStorage.getItem(VAULT_KEY);
-  if (saved) unlock(saved, false).then((ok) => { if (!ok) localStorage.removeItem(VAULT_KEY); });
 }

@@ -22,4 +22,4 @@ Open `index.html` directly, or serve this directory with any static web server.
 
 ## Private details
 
-Booking names are shown as codenames. The real names are encrypted in the page and can be revealed with the 🔒 button.
+Booking names, branch identifiers and confirmed booking prices are shown as placeholders. The real values are encrypted in the page and can be revealed with the 🔒 button. Unlocking is not persisted: every fresh page load starts locked and the passphrase is not stored in the browser.
