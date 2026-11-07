@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Oyado Cocochi to SPACIA X at Kita-senju</title>
+  <desc id="desc">Step-by-step map from Oyado Cocochi to Shin-Okubo, the Yamanote Line to Nishi-nippori, the dedicated transfer gate to Chiyoda Line platform 2, and the internal transfer at Kita-senju from basement level 2 to the dedicated Limited Express area at the north end of Tobu platforms 1 and 2.</desc>
+  <defs>
+    <style>
+      .bg{fill:#f8f2e8}.ink{fill:#1c211d}.muted{fill:#6b675f}.rust{fill:#ad402d}.moss{fill:#466b59}.gold{fill:#c89f55}.white{fill:#fff}.panel{fill:#fffdf8;stroke:#d7cdbf;stroke-width:2}.soft{fill:#eee6da}.line{fill:none;stroke:#a9a094;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}.route{fill:none;stroke:#ad402d;stroke-width:8;stroke-linecap:round;stroke-linejoin:round}.metro{fill:none;stroke:#2f8f70;stroke-width:8;stroke-linecap:round}.floor{fill:#f1e9dc;stroke:#cfc3b2;stroke-width:2}.express{fill:#ad402d;stroke:#7f281d;stroke-width:2}.title{font:700 42px Georgia,serif}.h{font:700 25px Georgia,serif}.b{font:700 18px Arial,sans-serif}.p{font:16px Arial,sans-serif}.small{font:14px Arial,sans-serif}.tiny{font:12px Arial,sans-serif;letter-spacing:.8px}.num{font:700 20px Arial,sans-serif}.tag{font:700 13px Arial,sans-serif;letter-spacing:1.2px}.center{text-anchor:middle}.right{text-anchor:end}
+    </style>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12Z" fill="#ad402d"/></marker>
+    <marker id="smallArrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0L7 3.5 0 7Z" fill="#ad402d"/></marker>
+    <marker id="greenArrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6 0 12Z" fill="#2f8f70"/></marker>
+  </defs>
+
+  <rect class="bg" width="1400" height="820" rx="18"/>
+  <text x="70" y="68" class="rust tag">OUTBOUND · WED 11 NOV · LEAVE HOTEL ≈06:50</text>
+  <text x="70" y="114" class="ink title">Oyado Cocochi → SPACIA X No. 1</text>
+  <text x="1330" y="82" class="rust h right">08:03</text>
+  <text x="1330" y="107" class="muted small right">Kita-senju → Tobu-Nikko</text>
+
+  <rect x="55" y="150" width="1290" height="230" rx="15" class="panel"/>
+  <path d="M190 258H430" class="route" marker-end="url(#arrow)"/>
+  <path d="M590 258H825" class="route" marker-end="url(#arrow)"/>
+  <path d="M990 258H1190" class="metro" marker-end="url(#greenArrow)"/>
+
+  <circle cx="130" cy="258" r="48" class="ink"/><text x="130" y="251" class="white num center">HOTEL</text><text x="130" y="273" class="white tiny center">2–3 MIN</text>
+  <text x="130" y="326" class="ink b center">Oyado Cocochi</text><text x="130" y="350" class="muted small center">Walk to JR Shin-Okubo</text>
+
+  <circle cx="520" cy="258" r="50" fill="#9dbd3a"/><text x="520" y="252" class="white num center">JY16</text><text x="520" y="274" class="white tiny center">JR</text>
+  <text x="520" y="326" class="ink b center">Shin-Okubo</text><text x="520" y="350" class="muted small center">Yamanote → Ikebukuro / Ueno</text>
+
+  <circle cx="910" cy="258" r="50" fill="#9dbd3a"/><text x="910" y="252" class="white num center">JY08</text><text x="910" y="274" class="white tiny center">C16</text>
+  <text x="910" y="326" class="ink b center">Nishi-nippori</text><text x="910" y="350" class="rust small center">Tap at JR → Chiyoda transfer gate</text>
+
+  <circle cx="1250" cy="258" r="50" class="moss"/><text x="1250" y="252" class="white num center">C18</text><text x="1250" y="274" class="white tiny center">TS09</text>
+  <text x="1250" y="326" class="ink b center">Kita-senju</text><text x="1250" y="350" class="moss small center">Stay inside · follow Tobu signs</text>
+
+  <rect x="55" y="405" width="455" height="330" rx="15" class="panel"/>
+  <text x="85" y="445" class="rust tag">TRANSFER 1 · NISHI-NIPPORI</text>
+  <text x="85" y="480" class="ink h">One gate, then Platform 2</text>
+  <circle cx="110" cy="525" r="19" class="rust"/><text x="110" y="532" class="white num center">1</text><text x="145" y="520" class="ink b">Follow “Chiyoda Line”</text><text x="145" y="543" class="muted small">Do not use the street exit.</text>
+  <circle cx="110" cy="595" r="19" class="rust"/><text x="110" y="602" class="white num center">2</text><text x="145" y="590" class="ink b">Tap Suica at transfer gate</text><text x="145" y="613" class="muted small">This closes JR and opens Metro.</text>
+  <circle cx="110" cy="665" r="19" class="rust"/><text x="110" y="672" class="white num center">3</text><text x="145" y="660" class="ink b">Chiyoda Platform 2</text><text x="145" y="683" class="muted small">Toward Kita-senju / Ayase / Kita-ayase.</text>
+  <rect x="85" y="702" width="385" height="18" rx="9" class="soft"/><text x="278" y="715" class="muted tiny center">ALLOW ABOUT 4 MINUTES · STAIRS / ESCALATORS</text>
+
+  <rect x="535" y="405" width="810" height="330" rx="15" class="panel"/>
+  <text x="565" y="445" class="rust tag">TRANSFER 2 · KITA-SENJU — THIS IS THE CONFUSING PART</text>
+  <text x="565" y="480" class="ink h">B2 → B1 passage → 1F Tobu Platforms 1–2</text>
+
+  <rect x="570" y="515" width="185" height="82" rx="8" class="floor"/><text x="590" y="542" class="muted tag">B2</text><text x="662" y="553" class="ink b center">Chiyoda</text><text x="662" y="578" class="muted small center">arrive Platform 2</text>
+  <path d="M755 556H825" class="route" marker-end="url(#arrow)"/>
+  <rect x="835" y="515" width="185" height="82" rx="8" class="floor"/><text x="855" y="542" class="muted tag">B1</text><text x="928" y="553" class="ink b center">Transfer passage</text><text x="928" y="578" class="rust small center">do not exit / tap out</text>
+  <path d="M1020 556H1090" class="route" marker-end="url(#arrow)"/>
+  <rect x="1100" y="505" width="210" height="102" rx="8" class="floor"/><text x="1120" y="532" class="muted tag">1F</text><text x="1205" y="548" class="ink b center">Tobu 1 / 2</text><text x="1205" y="573" class="muted small center">Kasukabe / Nikko direction</text><text x="1205" y="594" class="rust small center">walk to far north end →</text>
+
+  <path d="M1205 615V638" class="route" marker-end="url(#smallArrow)"/>
+  <rect x="910" y="645" width="400" height="60" rx="9" class="express"/>
+  <text x="1110" y="670" class="white b center">DEDICATED LIMITED EXPRESS ENTRY</text>
+  <text x="1110" y="691" class="white small center">Show confirmation · use assigned car/seat</text>
+  <text x="565" y="656" class="ink b">Not a separate station.</text>
+  <text x="565" y="680" class="muted small">It is a fenced section at the Kasukabe end of Platforms 1–2.</text>
+
+  <rect x="55" y="758" width="1290" height="38" rx="8" fill="#1c211d"/>
+  <text x="700" y="783" class="white small center">SUICA = ordinary/base fare · SPACIA X confirmation = reserved Limited Express seat · carry both</text>
+</svg>
